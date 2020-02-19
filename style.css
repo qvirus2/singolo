@@ -30,6 +30,7 @@ body{
 }
 
 .wrapper{
+    margin: 0 auto;
     width: 1020px;
     height: 89px;
     display: flex;
@@ -58,17 +59,17 @@ body{
 }
 .navbar{
     width: 370px;
-    margin: 42px 42px 0 0;
+    margin: 41px 42px 0 0;
     height: 100%;
 }
  .navbar ul{
      display: flex;
      justify-content: space-between;
+     margin: 0;
  }
  .navbar ul li{
     list-style: none;
-    font-weight: bold;
-    font-size: 12px;
+    margin: 0;
  }
 
  .navbar ul li:not(:first-child)::before {
@@ -86,9 +87,10 @@ body{
     font-size: 12px;
     line-height: 6px;
     color:#ffffff;
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     text-decoration: none;
+    margin: 0;
 
  }
  .navbar ul li a:hover {
@@ -106,7 +108,7 @@ body{
      width: 1020px;
      height: 600px;
      position: relative;
-     margin: 0;
+     margin: 0 auto;
  }
 
  .slider__iphone-vertical{
@@ -154,6 +156,7 @@ body{
  .wrapper-our-services{
     width: 1020px;
     height: 495px;
+    margin: 0 auto;
     
  }
  .our-services__caption{
