@@ -144,21 +144,21 @@ textarea{
         padding-right: 11px;
     }
 
-    .ico_phone{
+.ico_phone{
         padding-right: 8px;
        
         }
-    .ico_mail{
+.ico_mail{
         padding-right: 7px;
     }
-    .icons{
+.icons{
         display: flex;
         width: 150px;
         padding-top: 21px;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    footer{
+footer{
         height: 76px;
         background-color: #2d303a;  
     }
